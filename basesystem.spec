@@ -1,7 +1,7 @@
 Summary: The skeleton package which defines a simple Red Hat Enterprise Linux system
 Name: basesystem
 Version: 10.0
-Release: 6%{?dist}
+Release: 7%{?dist}
 License: Public Domain
 Group: System Environment/Base
 Requires(pre): setup filesystem
@@ -26,6 +26,9 @@ and it should never be removed.
 %defattr(-,root,root,-)
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 10.0-7
+- Mass rebuild 2013-12-27
+
 * Tue Mar 06 2012 Ondrej Vasik <ovasik@redhat.com> 10.0-6
 - remove again reference to Fedora after RHEL-7 import(#800464)
 
